@@ -2,11 +2,11 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoStratix from '@/images/logos/Stratix.png'
+
 import logoSterilMed from '@/images/logos/SterilMed.png'
 import logoUofNLincoln from '@/images/logos/UofNLincoln.png'
 import logoSilvon from '@/images/logos/Silvon.png'
-import logoEvergreenmarketing from '@/images/logos/Evergreenmarketing.png'
+import logoEvergreenmarketing from '@/images/logos/evergreenmarketing.png'
 import logoJPM from '@/images/logos/JPM.png'
 
 export function Hero() {
@@ -33,7 +33,7 @@ export function Hero() {
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">Sign Up Today!</Button>
         <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="https://youtu.be/bibpNeoKx_w?si=hVhv6b5snwqnd4hq"
           variant="outline"
         >
           <svg
@@ -61,7 +61,7 @@ export function Hero() {
             ],
             [
               { name: 'SterilMed', logo: logoSterilMed },
-              { name: 'Stratix', logo: logoStratix },
+              
               { name: 'UofNLincoln', logo: logoUofNLincoln },
             ],
           ].map((group, groupIndex) => (

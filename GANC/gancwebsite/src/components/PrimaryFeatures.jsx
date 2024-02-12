@@ -7,35 +7,35 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import screenshotRobotOperator from '@/images/screenshots/robotoperator.png'
+import screenshotOperator_orange from '@/images/screenshots/operator_orange.png'
+import screenshotAcctMgmt from '@/images/screenshots/acct_mgmt_screenshot.png'
+import screenshotRadioTours from '@/images/screenshots/operator.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Ops Assisted Services',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
+      "Amazing operators who are always there to help you with your conference calls. They're the best.",
+    image: screenshotOperator_orange,
   },
   {
-    title: 'Claim expenses',
+    title: 'Unassisted Services',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
+      "The best unassisted services in the business. We're the best. No doubt about it.",
+    image: screenshotRobotOperator,
   },
   {
-    title: 'VAT handling',
+    title: 'Radio Tours',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+      "We offer the best radio tours in the business. We've been doing them for over 20 years.",
+    image: screenshotRadioTours,
   },
   {
-    title: 'Reporting',
+    title: 'Account Management',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      'Create and manage your users and their permissions. You can even create groups to make it easier to manage permissions.',
+    image: screenshotAcctMgmt,
   },
 ]
 
@@ -74,11 +74,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            The best operator assisted services in the industry today, bar none!
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            We cover all of your bases and ensure that you have a worry free experience.
           </p>
         </div>
         <Tab.Group

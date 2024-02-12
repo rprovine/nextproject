@@ -6,17 +6,17 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/images/screenshots/contacts.png'
-import screenshotInventory from '@/images/screenshots/inventory.png'
-import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import screenshotFemaleOperator from '@/images/screenshots/femaleoperator.png'
+import screenshotCustomerExperience from '@/images/screenshots/maleoperator.png'
+import screenshotReporting from '@/images/screenshots/reportingscreenshot.png'
 
 const features = [
   {
     name: 'Reporting',
     summary: 'Stay on top of things with always up-to-date reporting features.',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
-    image: screenshotProfitLoss,
+      'Fully featured reporting packages with all the bells and whistles. You’ll never be left in the dark again.',
+    image: screenshotReporting,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -46,12 +46,12 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Customer Experience',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Take part in the best customer experience in the industry today.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
-    image: screenshotInventory,
+      'It is not just a feature, it is a way of life. We are so confident that you will love our service that we are offering a free trial. No credit card required.',
+    image: screenshotCustomerExperience,
     icon: function InventoryIcon() {
       return (
         <>
@@ -74,12 +74,12 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Ease of Use',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'All of our services are designed to be easy to use and understand.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
-    image: screenshotContacts,
+      'We pride ourselves on offering a wide selection of simple to use services. We are so confident that you will love our service that we are offering a free trial. No credit card required.',
+    image: screenshotFemaleOperator,
     icon: function ContactsIcon() {
       return (
         <>
@@ -218,11 +218,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            Join the best conferencing company in the industry today.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            You have to experience it to believe it. We’re so confident that you will love our service that we’re offering a free trial. No credit card required.
           </p>
         </div>
         <FeaturesMobile />
